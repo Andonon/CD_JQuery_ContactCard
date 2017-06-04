@@ -14,6 +14,7 @@
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/contactcard.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     </head>
     <body>
         <section id="contactform">
@@ -24,10 +25,12 @@
                 <input id="description" placeholder="Describe yourself for the contact card... (max 1000 characters)" size='1000' class="forminputdescription" type="text" name="description" onkeyup="formChanged()" onchange="formChanged()">
             </form >
             <button>add user</button>
+        </section>
+        <section id="contactdisplay">
             <table id="contactcards">
                 <tr class="card">
-                    <td>Name</td>
-                    <td>Click for description...</td>
+                    <td class="name">Troy Center</td>
+                    <td class="description">Click for description...</td>
                 </tr>
             </table>
         </section>
