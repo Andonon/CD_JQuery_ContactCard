@@ -19,22 +19,21 @@
     <body>
         <section id="contactform">
             <form id="contactinputform" action="process.php" method="POST">
-                <p class="forminputlabel">First Name: <input id="firstname" placeholder="First Name" size='30' class="forminputname" type="text" name="firstname" onkeyup="formChanged()" onchange="formChanged()"></p>
-                <p class="forminputlabel">Last Name: <input id="lastname" placeholder="Last Name" size='30' class="forminputname" type="text" name="lastname" onkeyup="formChanged()" onchange="formChanged()"></p>
+                <p class="forminputlabel">First Name: <input id="firstname" placeholder="First Name" size='30' class="forminputname" type="text" name="firstname"></p>
+                <p class="forminputlabel">Last Name: <input id="lastname" placeholder="Last Name" size='30' class="forminputname" type="text" name="lastname"></p>
                 <p class="forminputlabel">Describe yourself to your classmates:</p> 
-                <input id="description" placeholder="Describe yourself for the contact card... (max 1000 characters)" size='1000' class="forminputdescription" type="text" name="description" onkeyup="formChanged()" onchange="formChanged()">
-            </form >
+                <input id="description" placeholder="Describe yourself for the contact card... (max 150 characters)" size='1000' class="forminputdescription" type="text" name="description">
+            </form>
             <button id="addcontact">add contact</button>
         </section>
         <section id="contactdisplay">
             <table id="contactcards">
-                <tr class="card">
-                    <td class="name">Troy Center</td>
-                    <td class="description">Hover here for description...</td>
-                </tr>
+                <thead>
+                </thead>
+                <tbody>
+                </tbody>
             </table>
-            <button id="hidebutton">hidetest</button>
-        </section>
+        </section> 
         <footer><p>by Troy Center, Coding Dojo student 2017</p></footer>
     </body>
 </html>

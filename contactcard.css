@@ -33,11 +33,9 @@ body {
     width: 600px;
     display: inline-block;
     vertical-align: top;
-    background-color: pink;
 }
 
 #contactdisplay {
-    width: 500px;
     display: inline-block;
     
 }
@@ -99,14 +97,25 @@ button {
     margin: 50px;
     list-style: none;
 }
-.card {
+
+.namecard {
+    width: 300px;
+    height: 150px;
     margin: 30px;
     padding: 20px;
     display: list-item;
     padding: 10px;
-    background-color: lightblue;
+    background-color: purple;
 }
-
+.descriptioncard{
+    width: 300px;
+    height: 150px;
+    margin: 30px;
+    padding: 20px;
+    display: list-item;
+    padding: 10px;
+    background-color: red;    
+}
 td {
     display: list-item;
     padding: 10px;
@@ -117,6 +126,4 @@ td {
     font-weight: 700;
     font-size: 34px;
 }
-.description {
 
-}
