@@ -1,0 +1,24 @@
+/*******************************************************************/
+/* Created: INSERTDATE by Troy Center, troycenter1@gmail.com.      */
+/* INSERTDESCRIPTION                                               */
+/*******************************************************************/
+
+/***************************************************/
+/*               CSS reset settings                */
+/***************************************************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    margin-top: 100px;
+    text-align: center; 
+    font-size: 8px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/***************************************************/
+/*     MAIN CSS                                    */
+/***************************************************/
